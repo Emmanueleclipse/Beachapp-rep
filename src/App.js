@@ -62,7 +62,7 @@ function App() {
   return (
     <div className="App mx-5 py-5 container mx-auto md:w-4/12">
       <header className="container mx-auto"> 
-        {  isStart && !isComplete && <button className="text-blue-400" onClick={handleReset}>Cencel</button>}
+        {  isStart && !isComplete && <button className="text-blue-400" onClick={handleReset}>Cancel</button>}
       </header>
       <main className="px-5">
         { !isStart  && !isComplete &&  <Home/> }
